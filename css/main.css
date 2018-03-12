@@ -1,4 +1,25 @@
 body {
-  background-color: #066e8a;
-  color: white;
+  background-color: #35bae8;
+
 }
+
+.banner{
+  background-color: white;
+  background-size: cover;
+  color: #066e8a;
+  font-family: 'Baloo',cursive;
+  padding: 20px;
+  
+
+}
+
+#tagline{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+#intro{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 20px;
+  }
