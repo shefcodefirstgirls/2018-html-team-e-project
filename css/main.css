@@ -9,7 +9,7 @@ body {
   color: #066e8a;
   font-family: 'Baloo',cursive;
   padding: 20px;
-  
+
 
 }
 
@@ -20,6 +20,7 @@ body {
 
 #intro{
   font-family: 'Montserrat', sans-serif;
+  font-style: normal;
   color: white;
   padding: 20px;
   }
