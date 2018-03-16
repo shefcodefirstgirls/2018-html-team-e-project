@@ -9,7 +9,7 @@ body {
   color: #066e8a;
   font-family: 'Baloo',cursive;
   padding: 20px;
-  
+
 
 }
 
@@ -23,3 +23,12 @@ body {
   color: white;
   padding: 20px;
   }
+
+ #startbtn button{
+   margin-top: 50px;
+   color: white;
+   font-family: 'Baloo', cursive;
+   background: #066e8a;
+   height: 75px;
+   width: 300px
+ }
