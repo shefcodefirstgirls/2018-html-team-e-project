@@ -18,11 +18,20 @@ body {
   font-style: italic;
 }
 
-#intro{
+.text-content{
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   color: white;
-  padding: 20px;
+    }
+
+  #intro{
+    padding: 20px;
+  }
+
+  .header{
+    font-family: 'Baloo',cursive;
+    color: white;
+    padding-top: 30px;
   }
 
  #startbtn button{
