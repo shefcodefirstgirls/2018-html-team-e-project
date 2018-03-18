@@ -42,3 +42,12 @@ body {
    height: 75px;
    width: 300px
  }
+
+ #mission-head {
+   font-family: 'Montserrat', sans-serif;
+    }
+
+.goals {
+  font-family: 'Montserrat', sans-serif;
+  background: rgba(6, 110, 138, 0.5)
+}
