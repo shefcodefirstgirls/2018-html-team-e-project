@@ -22,6 +22,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   color: white;
+
     }
 
   #intro{
@@ -49,11 +50,19 @@ body {
 
 .goals {
   font-family: 'Montserrat', sans-serif;
-  background: rgba(6, 110, 138, 0.5)
+  background: rgba(6, 110, 138, 0.5);
+  padding: 20px;
+  margin-top: 30px;
+  color: white;
 }
+
+.goals h2 {font-family: 'Baloo';
+            color: #066e8a;
+          background: white;}
 
 .card {
         margin: 0 auto; /* Added */
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
+        margin-top: 20px;
 }
