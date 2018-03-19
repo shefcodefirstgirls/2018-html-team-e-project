@@ -1,19 +1,21 @@
 body {
   background-color: #35bae8;
-
+  margin: 5px;
 }
   .container{
     padding: 15px;
 }
   .twitter-hashtag-button{
-    text-align: center;
+    margin-top: 5px;
   }
   .banner{
     background-color: white;
     background-size: cover;
     color: #066e8a;
     font-family: 'Baloo',cursive;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 5px;
+
   }
 
   #tagline{
@@ -23,12 +25,12 @@ body {
 
   .text-content{
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    padding: 0px;
     color: white;
   }
 
   #intro{
-    padding: 20px;
+    padding: 10px;
   }
 
   .header{
@@ -81,14 +83,15 @@ body {
    }
 
    .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
     margin-top: 20px;
     }
 
   #startbtn button {
     margin-top: 20px;
+    margin-bottom: 20px;
     color: white;
     font-family: 'Baloo', cursive;
     background: #066e8a;
