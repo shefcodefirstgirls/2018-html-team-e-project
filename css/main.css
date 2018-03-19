@@ -2,7 +2,12 @@ body {
   background-color: #35bae8;
 
 }
-
+  .container{
+    padding: 15px;
+}
+  .twitter-hashtag-button{
+    text-align: center;
+  }
   .banner{
     background-color: white;
     background-size: cover;
@@ -13,7 +18,7 @@ body {
 
   #tagline{
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-style: italic;
   }
 
   .text-content{
@@ -29,7 +34,7 @@ body {
   .header{
     font-family: 'Baloo',cursive;
     color: white;
-    padding-top: 30px;
+    padding-top: 20px;
   }
 
   #socialbuttons{
