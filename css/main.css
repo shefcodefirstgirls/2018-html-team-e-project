@@ -1,25 +1,100 @@
 body {
   background-color: #35bae8;
-
+  margin: 5px;
 }
-
-.banner{
-  background-color: white;
-  background-size: cover;
-  color: #066e8a;
-  font-family: 'Baloo',cursive;
-  padding: 20px;
-  
-
+  .container{
+    padding: 15px;
 }
-
-#tagline{
-  font-family: 'Montserrat', sans-serif;
-  font-style: italic;
-}
-
-#intro{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  padding: 20px;
+  .twitter-hashtag-button{
+    margin-top: 5px;
   }
+  .banner{
+    background-color: white;
+    background-size: cover;
+    color: #066e8a;
+    font-family: 'Baloo',cursive;
+    padding: 10px;
+    margin-top: 5px;
+
+  }
+
+  #tagline{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+  }
+
+  .text-content{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    color: white;
+  }
+
+  #intro{
+    padding: 10px;
+  }
+
+  .header{
+    font-family: 'Baloo',cursive;
+    color: white;
+    padding-top: 20px;
+  }
+
+  #socialbuttons{
+    padding: 60px;
+  }
+  .fa{
+    padding: 10px;
+    border-radius: 100%;
+  }
+
+  .fa-facebook{
+    padding-left: 12px;
+    padding-right: 12px;
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter{
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram{
+    background: #125688;
+    color: white;
+  }
+
+  .goals{
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(6, 110, 138, 0.5);
+    padding: 20px;
+    margin-top: 30px;
+    color: white;
+   }
+
+  #mission-head{
+    font-family: 'Montserrat', sans-serif;
+   }
+
+  .goals h2{
+    font-family: 'Baloo';
+    color: #066e8a;
+    background: white;
+   }
+
+   .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    }
+
+  #startbtn button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Baloo', cursive;
+    background: #066e8a;
+    height: 75px;
+    width: 300px;
+    }
