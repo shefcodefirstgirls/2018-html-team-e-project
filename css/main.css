@@ -4,7 +4,8 @@ body {
 }
 .navigation {
   width: 80%;
-  margin 0 auto;
+  margin: 5px;
+  border-radius: 100%;
  }
 
 header {
@@ -69,11 +70,9 @@ nav ul li a:hover::before{
 }
 
 
-
-
-
   .container{
-    padding: 15px;
+    padding: 0px;
+    margin-top: 25px;
 }
   .twitter-hashtag-button{
     margin-top: 5px;
@@ -85,6 +84,7 @@ nav ul li a:hover::before{
     font-family: 'Baloo',cursive;
     padding: 10px;
     margin-top: 5px;
+    border-radius: 50%;
 
   }
 
@@ -95,12 +95,13 @@ nav ul li a:hover::before{
 
   .text-content{
     font-family: 'Montserrat', sans-serif;
-    padding: 0px;
-    color: white;
+    color: #066E8A;
+    margin-top: 50px;
   }
 
   #intro{
     padding: 10px;
+    padding-top: 20px;
   }
 
   .header{
@@ -160,8 +161,7 @@ nav ul li a:hover::before{
     }
 
   #startbtn button {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: white;
     font-family: 'Baloo', cursive;
     background: #066e8a;
