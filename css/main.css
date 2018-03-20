@@ -2,6 +2,76 @@ body {
   background-color: #35bae8;
   margin: 5px;
 }
+.navigation {
+  width: 80%;
+  margin 0 auto;
+ }
+
+header {
+   background: #FFFFFF;
+ }
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo{
+  float:left;
+  padding: 10px;
+  margin-left: 20px;
+ }
+ nav ul {
+   float: right;
+ }
+ nav ul {
+   margin: 0;
+   padding: 10px;
+   list-style: none;
+ }
+ nav li{
+   display: inline-block;
+   margin-left: 0 50px;
+   margin-right: 0 70px;
+   padding-top: 0;
+
+   position: relative;
+ }
+
+nav ul li a {
+  color: #066e8a;
+  background: white;
+  font-family: 'Baloo',cursive;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+nav ul li a:hover {
+  color: #35bea8;
+}
+
+nav ul li a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background color: #35bea8;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out: 250ms;
+}
+
+nav ul li a:hover::before{
+  width: 100%;
+}
+
+
+
+
+
   .container{
     padding: 15px;
 }
