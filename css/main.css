@@ -84,7 +84,7 @@ nav ul li a:hover::before{
     font-family: 'Baloo',cursive;
     padding: 10px;
     margin-top: 5px;
-    border-radius: 50%;
+    border-radius: 100%;
 
   }
 
